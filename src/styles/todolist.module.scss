@@ -1,0 +1,17 @@
+.main {
+  @apply flex;
+}
+.todoMain {
+  @apply bg-cyan-50 h-fit px-10 py-5 w-1/2 justify-between flex ml-72 text-cyan-700 rounded-md border-slate-400;
+}
+.todoName {
+  @apply font-bold;
+}
+
+.todoStatus {
+  @apply font-bold;
+}
+
+.todoBody {
+  @apply gap-3 flex flex-col;
+}
